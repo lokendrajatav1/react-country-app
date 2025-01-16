@@ -37,10 +37,10 @@ const SearchFilter = ({
                 />
             </div>
 
-            <div>
+            <div className="sortbtn">
                 <button onClick={() => sortCountries("asc")}>Asc</button>
             </div>
-            <div>
+            <div className="sortbtn">
                 <button onClick={() => sortCountries("des")}>Desc</button>
             </div>
 
